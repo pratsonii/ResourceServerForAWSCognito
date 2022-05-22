@@ -12,15 +12,15 @@ Authenticates and authorises requests which have Id_token generated using aws co
   
 # How to get ID token for local testing(without UI) :
 
-- Auth Code Grant type flow
+1) Auth Code Grant type flow
   Use Postman to generate token. 
   Follow steps here : https://github.com/pratsonii/ResourceServerGoogleAuth#resourceservergoogleauth
 
 
-- Implicit Grant type flow
+2) Implicit Grant type flow
 
 1. Hit this url https://(Cognito-domain)/login?client_id=(client_id)&response_type=token&scope=email+openid+phone+profile&redirect_uri=(callback url) 
--  Cognito-domain path :  AWS Cognito > Userpool > App Integration tab  
+    Cognito-domain path :  AWS Cognito > Userpool > App Integration tab  
 2. Do login
 3. Response will have id and access token
   
