@@ -11,8 +11,8 @@ Authenticates and authorises requests which have Id_token generated using aws co
   
   
 # How to get ID token for local testing(without UI) :
-1. Hit this url https://<Cognito domain>/login?client_id=<client_id>&response_type=token&scope=email+openid+phone+profile&redirect_uri=<callback url> 
--  Cognito domain path AWS Cognito > Userpool > App Integration tab  
+1. Hit this url https://<Cognito-domain>/login?client_id=<client_id>&response_type=token&scope=email+openid+phone+profile&redirect_uri=<callback url> 
+-  Cognito-domain path :  AWS Cognito > Userpool > App Integration tab  
 2. Do login
 3. Response will have id and access token
   
