@@ -17,5 +17,15 @@ Authenticates and authorises requests which have Id_token generated using aws co
 3. Response will have id and access token
   
 Use ID token in the header for api  
+
+
+# Useful Links : 
+- https://www.youtube.com/watch?v=y3z9pkoAlws&ab_channel=WalrusCode
+- https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html
+- https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
+- https://kevcodez.de/posts/2020-03-26-secure-spring-boot-app-with-oauth2-aws-cognito/
+- https://medium.com/cloud-base/resource-server-with-cognito-b7fbfbee0155
+- https://blog.marcusjanke.de/spring-boot-2-3-oauth-2-jwt-security-using-amazon-cognito-d10e4e40ac05
+- https://dev.to/toojannarong/spring-security-with-jwt-the-easiest-way-2i43
   
   
