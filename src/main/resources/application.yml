@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${jwks_uri}
+          
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG     
+        web: DEBUG
