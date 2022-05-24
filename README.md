@@ -34,3 +34,4 @@ Use ID token in the header for api
 - https://medium.com/cloud-base/resource-server-with-cognito-b7fbfbee0155
 - https://blog.marcusjanke.de/spring-boot-2-3-oauth-2-jwt-security-using-amazon-cognito-d10e4e40ac05
 - https://dev.to/toojannarong/spring-security-with-jwt-the-easiest-way-2i43
+- Token Authentication flow in Spring Security : https://www.initgrep.com/posts/java/spring/spring-security-oauth2-jwt-authentication-resource-server
